@@ -8,9 +8,9 @@ public class ScoreManager
 
     public void AddScore(GameSignal.EnemyDeadSignal signal)
     {
-        if (signal.Type == Enemy.EnemyType.Boss)
+        if (signal.Type == EnemyTest.EnemyType.Boss)
             _totalScore += signal.Score * 2;
-        else if (signal.Type == Enemy.EnemyType.Minion)
+        else if (signal.Type == EnemyTest.EnemyType.Minion)
             _totalScore += signal.Score;
 
 

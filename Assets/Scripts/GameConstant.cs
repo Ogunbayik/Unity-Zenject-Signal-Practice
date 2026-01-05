@@ -8,4 +8,12 @@ public static class GameConstant
     {
         public const int TEST_DAMAGE = 10;
     }
+
+    public static class EnemyData
+    {
+        public const float MINIMIM_MOVEMENT_SPEED = 1f;
+        public const float MAXIMUM_MOVEMENT_SPEED = 4f;
+        public const float SPAWN_BORDER_X_RANGE = 5f;
+        public const float SPAWN_INTERVAL_TIME = 6f;
+    }
 }

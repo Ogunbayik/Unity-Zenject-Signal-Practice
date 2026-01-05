@@ -13,13 +13,21 @@ public static class GameSignal
         
     public class EnemyDeadSignal
     {
-        public Enemy.EnemyType Type;
+        public EnemyTest.EnemyType Type;
         public int Score;
 
-        public EnemyDeadSignal(Enemy.EnemyType type, int score)
+        public EnemyDeadSignal(EnemyTest.EnemyType type, int score)
         {
             Type = type; 
             Score = score;
         }
     }
+
+    public class EnemyPassedBorderSignal {
+        public Vector3 DeadPosition { get; }
+
+        public EnemyPassedBorderSignal(Vector3 deadPosition)  => DeadPosition = deadPosition;
+    
+    }
+
 }
