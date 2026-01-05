@@ -11,4 +11,15 @@ public static class GameSignal
     }
         
         
+    public class EnemyDeadSignal
+    {
+        public Enemy.EnemyType Type;
+        public int Score;
+
+        public EnemyDeadSignal(Enemy.EnemyType type, int score)
+        {
+            Type = type; 
+            Score = score;
+        }
+    }
 }
