@@ -30,4 +30,18 @@ public static class GameSignal
     
     }
 
+    public class TankFireSignal { }
+    public class BulletHitSignal{
+        public GameObject HitObject { get; }
+        public Vector3 DeadPosition { get; }
+
+        public BulletHitSignal(GameObject hitObject, Vector3 deadPosition)
+        {
+            HitObject = hitObject;
+            DeadPosition = deadPosition;
+        }
+
+
+    }
+
 }
