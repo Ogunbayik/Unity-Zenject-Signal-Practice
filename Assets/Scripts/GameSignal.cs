@@ -9,8 +9,6 @@ public static class GameSignal
         public int DamageAmount { get; }
         public PlayerHitSignal(int damageAmount) => DamageAmount = damageAmount;
     }
-        
-        
     public class EnemyDeadSignal
     {
         public EnemyTest.EnemyType Type;
@@ -22,14 +20,12 @@ public static class GameSignal
             Score = score;
         }
     }
-
     public class EnemyPassedBorderSignal {
         public Vector3 DeadPosition { get; }
 
         public EnemyPassedBorderSignal(Vector3 deadPosition)  => DeadPosition = deadPosition;
     
     }
-
     public class TankFireSignal { }
     public class BulletHitSignal{
         public GameObject HitObject { get; }
@@ -40,8 +36,8 @@ public static class GameSignal
             HitObject = hitObject;
             DeadPosition = deadPosition;
         }
-
-
     }
+    public class OnLevelFailed { }
+    public class OnLevelRestart { }
 
 }

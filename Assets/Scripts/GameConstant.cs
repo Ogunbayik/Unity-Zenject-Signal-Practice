@@ -28,4 +28,19 @@ public static class GameConstant
         public const float MINIMUM_BULLET_SPEED = 5f;
         public const float MAXIMUM_BULLET_SPEED = 8f;
     }
+
+    public static class HealthStateIndex
+    {
+        public const int DEAD = 0;
+        public const int CRITICAL = 1;
+        public const int WOUNDED = 2;
+        public const int HEALTHY = 3;
+        public const int PRISTINE = 4;
+    }
+
+    public static class Test
+    {
+        public const int DAMAGE = 5;
+        public const int HEAL = 1;
+    }
 }

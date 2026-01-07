@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ogun\\UnityProjects\\Zenject-Signal-Practice\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A508A39F-D421-2839-AA51-816C0AC2CE7A}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\zenject-signal-practice\\assets\\scripts\\onetomany-bindsignal-practice\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A508A39F-D421-2839-AA51-816C0AC2CE7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\onetomany-bindsignal-practice\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerModel.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\Zenject-Signal-Practice\\Assets\\Scripts\\OneToMany-BindSignal-Practice\\PlayerModel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OneToMany-BindSignal-Practice\\PlayerModel.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\Zenject-Signal-Practice\\Assets\\Scripts\\OneToMany-BindSignal-Practice\\PlayerModel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OneToMany-BindSignal-Practice\\PlayerModel.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T22:18:34.263Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
